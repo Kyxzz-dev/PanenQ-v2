@@ -1,0 +1,21 @@
+{
+  "name": "panen-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API pencatatan tandan hasil panen",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true
+  }
+}
